@@ -1,0 +1,1217 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\dklepps\AppData\Local\Temp\s854.o
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 2 2 2 2
+config CONFIG 0 8007 8007 5 2
+$dist/default/production\Greenheck_LCD.X.production.o
+cinit CODE 0 7CF 7CF 31 2
+text1 CODE 0 1F0F 1F0F D 2
+text2 CODE 0 1EC3 1EC3 8 2
+text3 CODE 0 1F79 1F79 2F 2
+text4 CODE 0 1ED4 1ED4 A 2
+text5 CODE 0 1ECB 1ECB 9 2
+text6 CODE 0 1D4 1D4 1FB 2
+text7 CODE 0 1F57 1F57 22 2
+text8 CODE 0 F8 F8 DC 2
+text9 CODE 0 5 5 2 2
+text10 CODE 0 1744 1744 2 2
+text11 CODE 0 7 7 5F 2
+text12 CODE 0 66 66 92 2
+text13 CODE 0 1FA8 1FA8 58 2
+text14 CODE 0 1F2B 1F2B 14 2
+text15 CODE 0 1EBC 1EBC 7 2
+text16 CODE 0 1EDE 1EDE C 2
+text17 CODE 0 1F02 1F02 D 2
+text18 CODE 0 1EB5 1EB5 7 2
+text19 CODE 0 1746 1746 3C 2
+text20 CODE 0 1F3F 1F3F 18 2
+idataBIGRAM CODE 0 3CF 3CF 400 2
+maintext CODE 0 1782 1782 7E 2
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK0 BANK0 1 20 20 3F 1
+inittext CODE 0 1EF6 1EF6 C 2
+stringtext1 STRCODE 0 13E4 13E4 23E 2
+stringtext2 STRCODE 0 1622 1622 121 2
+stringtext3 STRCODE 0 2000 2000 20 2
+stringtext4 STRCODE 0 800 800 BE4 2
+bssBANK0 BANK0 1 5F 5F 7 1
+bssBANK1 BANK1 1 A0 A0 1D 1
+idataBANK1 CODE 0 1F1C 1F1C F 2
+dataBANK1 BANK1 1 BD BD F 1
+clrtext CODE 0 1EEA 1EEA C 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 66-6F 1
+RAM CC-EF 1
+RAM 120-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK0 66-6F 1
+BANK1 CC-EF 1
+BANK2 120-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 4-4 2
+CONST 1743-1743 2
+CONST 1800-1EB4 2
+CONST 2020-3FFF 2
+ENTRY 4-4 2
+ENTRY 1743-1743 2
+ENTRY 1800-1EB4 2
+ENTRY 2020-3FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-69F 1
+SFR14 700-71F 1
+SFR15 780-79F 1
+SFR16 800-81F 1
+SFR17 880-89F 1
+SFR18 900-91F 1
+SFR19 980-99F 1
+SFR20 A00-A1F 1
+SFR21 A80-A9F 1
+SFR22 B00-B1F 1
+SFR23 B80-B9F 1
+SFR24 C00-C1F 1
+SFR25 C80-C9F 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+SFR32 1000-106F 1
+SFR33 1080-10EF 1
+SFR34 1100-116F 1
+SFR35 1180-11EF 1
+SFR36 1200-126F 1
+SFR37 1280-12EF 1
+SFR38 1300-136F 1
+SFR39 1380-13EF 1
+SFR40 1400-146F 1
+SFR41 1480-14EF 1
+SFR42 1500-156F 1
+SFR43 1580-15EF 1
+SFR44 1600-166F 1
+SFR45 1680-16EF 1
+SFR46 1700-176F 1
+SFR47 1780-17EF 1
+SFR48 1800-186F 1
+SFR49 1880-18EF 1
+SFR50 1900-196F 1
+SFR51 1980-19EF 1
+SFR52 1A00-1A6F 1
+SFR53 1A80-1AEF 1
+SFR54 1B00-1B6F 1
+SFR55 1B80-1BEF 1
+SFR56 1C00-1C6F 1
+SFR57 1C80-1CEF 1
+SFR58 1D00-1D6F 1
+SFR59 1D80-1DEF 1
+SFR60 1E00-1E6F 1
+SFR61 1E80-1EEF 1
+SFR62 1F00-1F6F 1
+SFR63 1F80-1FEF 1
+STACK 207C-23EF 1
+CODE 4-4 2
+CODE 1743-1743 2
+CODE 1800-1EB4 2
+CODE 2020-3FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-27EF 1
+STRCODE 4-4 2
+STRCODE 1743-1743 2
+STRCODE 1800-1EB4 2
+STRCODE 2020-3FFF 2
+STRING 4-4 2
+STRING 1743-1743 2
+STRING 1800-1EB4 2
+STRING 2020-3FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Greenheck_LCD.X.production.o
+7CF cinit CODE >9577:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7CF cinit CODE >9580:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7CF cinit CODE >9625:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7D0 cinit CODE >9626:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7D1 cinit CODE >9627:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7D2 cinit CODE >9628:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7D3 cinit CODE >9629:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7D4 cinit CODE >9630:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7D5 cinit CODE >9631:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7D6 cinit CODE >9632:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7D7 cinit CODE >9633:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7D8 cinit CODE >9634:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7D9 cinit CODE >9635:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7DA cinit CODE >9636:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7DD cinit CODE >9640:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7DE cinit CODE >9641:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7DF cinit CODE >9642:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7E0 cinit CODE >9643:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7E1 cinit CODE >9644:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7E2 cinit CODE >9645:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7E3 cinit CODE >9646:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7E4 cinit CODE >9647:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7E5 cinit CODE >9648:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7E6 cinit CODE >9649:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7E7 cinit CODE >9650:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7E8 cinit CODE >9651:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7EB cinit CODE >9674:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7EC cinit CODE >9675:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7ED cinit CODE >9676:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7EE cinit CODE >9677:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7EF cinit CODE >9678:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7F0 cinit CODE >9679:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7F1 cinit CODE >9680:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7F2 cinit CODE >9684:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7F3 cinit CODE >9685:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7F4 cinit CODE >9686:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7F5 cinit CODE >9687:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7F6 cinit CODE >9688:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7F7 cinit CODE >9689:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7F8 cinit CODE >9690:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7F9 cinit CODE >9691:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7FA cinit CODE >9692:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7FD cinit CODE >9698:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7FD cinit CODE >9700:C:\Users\dklepps\AppData\Local\Temp\s854.s
+7FE cinit CODE >9701:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1F3F text20 CODE >25:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F40 text20 CODE >32:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F45 text20 CODE >34:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F4A text20 CODE >36:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F4C text20 CODE >37:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F4D text20 CODE >40:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F52 text20 CODE >50:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F54 text20 CODE >51:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F56 text20 CODE >52:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1746 text19 CODE >417:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1746 text19 CODE >418:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+174B text19 CODE >419:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1753 text19 CODE >420:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1762 text19 CODE >421:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1771 text19 CODE >422:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1780 text19 CODE >423:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1781 text19 CODE >424:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1EB5 text18 CODE >82:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EB5 text18 CODE >85:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EB7 text18 CODE >86:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EB7 text18 CODE >87:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EBB text18 CODE >88:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F02 text17 CODE >93:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F02 text17 CODE >96:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F02 text17 CODE >97:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F07 text17 CODE >99:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F0B text17 CODE >101:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F0E text17 CODE >103:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EDE text16 CODE >109:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EDF text16 CODE >111:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EE2 text16 CODE >112:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EE6 text16 CODE >113:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EE9 text16 CODE >114:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EBC text15 CODE >57:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EBC text15 CODE >60:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EBE text15 CODE >62:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EBE text15 CODE >64:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1EC2 text15 CODE >65:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\I2C.c
+1F2B text14 CODE >888:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1F2C text14 CODE >889:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1F2C text14 CODE >890:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1F2F text14 CODE >891:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1F33 text14 CODE >892:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1F37 text14 CODE >893:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1F3B text14 CODE >894:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1F3E text14 CODE >895:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FA8 text13 CODE >444:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FA8 text13 CODE >445:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FA8 text13 CODE >446:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FA9 text13 CODE >447:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FAD text13 CODE >448:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FB1 text13 CODE >449:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FB5 text13 CODE >451:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FB9 text13 CODE >452:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FBD text13 CODE >454:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FC1 text13 CODE >463:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FC4 text13 CODE >464:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FC8 text13 CODE >465:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FCC text13 CODE >466:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FCE text13 CODE >468:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FCF text13 CODE >469:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FDD text13 CODE >470:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FE1 text13 CODE >471:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FEB text13 CODE >472:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FEF text13 CODE >473:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FFC text13 CODE >475:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1FFF text13 CODE >476:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+66 text12 CODE >341:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+66 text12 CODE >342:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+6A text12 CODE >343:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+6D text12 CODE >344:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+79 text12 CODE >345:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+7D text12 CODE >346:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+81 text12 CODE >347:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+85 text12 CODE >348:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+89 text12 CODE >349:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+8D text12 CODE >350:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+91 text12 CODE >351:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+95 text12 CODE >352:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+99 text12 CODE >353:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+9D text12 CODE >355:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+A1 text12 CODE >356:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+A5 text12 CODE >357:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+A9 text12 CODE >358:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+AD text12 CODE >359:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+B1 text12 CODE >368:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+B5 text12 CODE >369:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+B9 text12 CODE >370:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+BD text12 CODE >372:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+C1 text12 CODE >375:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+C5 text12 CODE >377:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+C9 text12 CODE >378:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+CD text12 CODE >379:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+D1 text12 CODE >380:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+D5 text12 CODE >381:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+D9 text12 CODE >382:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+DD text12 CODE >383:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+E1 text12 CODE >387:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+E8 text12 CODE >388:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+F4 text12 CODE >389:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+F7 text12 CODE >390:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+7 text11 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+7 text11 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+8 text11 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+C text11 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+11 text11 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+13 text11 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+17 text11 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+1C text11 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+20 text11 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+22 text11 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+28 text11 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+2A text11 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+2B text11 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+30 text11 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+34 text11 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+38 text11 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+3D text11 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+47 text11 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+4B text11 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+4C text11 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+51 text11 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+57 text11 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+5C text11 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+61 text11 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+65 text11 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+1744 text10 CODE >925:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1744 text10 CODE >926:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1745 text10 CODE >927:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+5 text9 CODE >916:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+5 text9 CODE >917:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+6 text9 CODE >918:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+F8 text8 CODE >529:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+F8 text8 CODE >530:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+125 text8 CODE >534:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+157 text8 CODE >535:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+158 text8 CODE >536:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+18B text8 CODE >537:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+18C text8 CODE >538:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1BE text8 CODE >539:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1BF text8 CODE >540:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1D3 text8 CODE >541:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1F57 text7 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+1F57 text7 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+1F5A text7 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+1F5E text7 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+1F63 text7 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+1F68 text7 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+1F6D text7 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+1F73 text7 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+1F78 text7 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+1D4 text6 CODE >791:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1D4 text6 CODE >792:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1D4 text6 CODE >793:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1D7 text6 CODE >794:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1D9 text6 CODE >796:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1DB text6 CODE >801:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1E1 text6 CODE >802:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+216 text6 CODE >803:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+219 text6 CODE >804:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+21E text6 CODE >806:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+246 text6 CODE >807:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+247 text6 CODE >808:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+25D text6 CODE >809:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+262 text6 CODE >810:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+28C text6 CODE >811:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+28D text6 CODE >813:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+2B7 text6 CODE >816:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+2BD text6 CODE >823:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+2C8 text6 CODE >824:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+2DD text6 CODE >825:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+2FB text6 CODE >827:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+330 text6 CODE >828:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+33D text6 CODE >829:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+341 text6 CODE >830:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+344 text6 CODE >831:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+348 text6 CODE >832:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+35F text6 CODE >833:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+364 text6 CODE >834:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+375 text6 CODE >835:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+376 text6 CODE >837:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+387 text6 CODE >840:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+38D text6 CODE >847:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+392 text6 CODE >848:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+396 text6 CODE >849:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+39A text6 CODE >850:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+39E text6 CODE >851:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+3AB text6 CODE >853:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+3BC text6 CODE >854:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+3CE text6 CODE >856:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\OLED.c
+1ECB text5 CODE >167:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/i2c1_master.c
+1ECB text5 CODE >169:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/i2c1_master.c
+1ECD text5 CODE >170:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/i2c1_master.c
+1ECF text5 CODE >171:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/i2c1_master.c
+1ED0 text5 CODE >172:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/i2c1_master.c
+1ED2 text5 CODE >173:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/i2c1_master.c
+1ED3 text5 CODE >174:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/i2c1_master.c
+1ED4 text4 CODE >58:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1ED4 text4 CODE >61:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1ED7 text4 CODE >63:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1ED8 text4 CODE >65:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1ED9 text4 CODE >67:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1EDB text4 CODE >69:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1EDC text4 CODE >71:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1EDD text4 CODE >72:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1F79 text3 CODE >55:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F79 text3 CODE >60:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F7B text3 CODE >61:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F7C text3 CODE >62:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F7D text3 CODE >67:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F7F text3 CODE >68:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F81 text3 CODE >69:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F83 text3 CODE >74:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F85 text3 CODE >75:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F86 text3 CODE >76:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F87 text3 CODE >81:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F88 text3 CODE >82:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F89 text3 CODE >83:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F8A text3 CODE >84:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F8B text3 CODE >89:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F8C text3 CODE >90:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F8D text3 CODE >91:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F8E text3 CODE >96:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F90 text3 CODE >97:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F92 text3 CODE >98:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F94 text3 CODE >103:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F96 text3 CODE >104:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F98 text3 CODE >105:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F9A text3 CODE >106:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F9C text3 CODE >115:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1F9F text3 CODE >116:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1FA2 text3 CODE >117:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1FA4 text3 CODE >118:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1FA7 text3 CODE >119:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/pin_manager.c
+1EC3 text2 CODE >74:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1EC3 text2 CODE >77:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1EC5 text2 CODE >79:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1EC6 text2 CODE >81:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1EC7 text2 CODE >83:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1EC8 text2 CODE >85:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1EC9 text2 CODE >87:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1ECA text2 CODE >88:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1F0F text1 CODE >50:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1F0F text1 CODE >52:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1F12 text1 CODE >53:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1F15 text1 CODE >54:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1F18 text1 CODE >55:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1F1B text1 CODE >56:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\mcc_generated_files/mcc.c
+1782 maintext CODE >50:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+1782 maintext CODE >54:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+1785 maintext CODE >71:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+1791 maintext CODE >72:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+1794 maintext CODE >73:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+1796 maintext CODE >74:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+1797 maintext CODE >75:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+1798 maintext CODE >76:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17A6 maintext CODE >79:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17D8 maintext CODE >80:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17DB maintext CODE >81:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17E0 maintext CODE >82:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17E6 maintext CODE >83:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17E7 maintext CODE >84:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17EB maintext CODE >85:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17F1 maintext CODE >86:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17F2 maintext CODE >89:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17F6 maintext CODE >90:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+17FC maintext CODE >91:C:\Users\dklepps\Source\Repos\Greenheck_LCD.X\main.c
+1EEA clrtext CODE >9657:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EEA clrtext CODE >9658:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EEB clrtext CODE >9659:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EEB clrtext CODE >9660:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EEC clrtext CODE >9661:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EED clrtext CODE >9662:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EEE clrtext CODE >9663:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EEF clrtext CODE >9664:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF0 clrtext CODE >9665:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF1 clrtext CODE >9666:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF2 clrtext CODE >9667:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF3 clrtext CODE >9668:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF4 clrtext CODE >9669:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF5 clrtext CODE >9670:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF6 inittext CODE >9608:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF6 inittext CODE >9609:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF7 inittext CODE >9610:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF7 inittext CODE >9611:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF8 inittext CODE >9612:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EF9 inittext CODE >9613:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EFA inittext CODE >9614:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EFB inittext CODE >9615:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EFC inittext CODE >9616:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EFD inittext CODE >9617:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EFE inittext CODE >9618:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1EFF inittext CODE >9619:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1F00 inittext CODE >9620:C:\Users\dklepps\AppData\Local\Temp\s854.s
+1F01 inittext CODE >9621:C:\Users\dklepps\AppData\Local\Temp\s854.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 3 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+__LdataBANK1 0 0 ABS 0 dataBANK1 -
+I2C_Send@data 70 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_Initialize 3D96 0 CODE 0 text5 dist/default/production\Greenheck_LCD.X.production.o
+__Hspace_0 800C 0 ABS 0 - -
+__Hspace_1 CC 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__HidataBANK1 0 0 ABS 0 idataBANK1 -
+_SSP1STATbits 18F 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_PMD_Initialize 3D86 0 CODE 0 text2 dist/default/production\Greenheck_LCD.X.production.o
+__end_of_I2C_Start 3D86 0 CODE 0 text15 dist/default/production\Greenheck_LCD.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+__CFG_WDTCCS$SC 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_LATA 18 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_LATB 19 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_LATC 1A 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_PMD0 796 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_PMD1 797 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_PMD2 798 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_PMD3 799 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_PMD4 79A 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_PMD5 79B 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_WPUA 1F39 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_WPUB 1F44 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_WPUC 1F4F 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_WPUE 1F65 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\dklepps\AppData\Local\Temp\s854.o
+_main 2F04 0 CODE 0 maintext dist/default/production\Greenheck_LCD.X.production.o
+__size_of_I2C_Start 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__size_of_OLED_Update 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+start 4 0 CODE 0 init C:\Users\dklepps\AppData\Local\Temp\s854.o
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+?___wmul 79 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+__size_of_I2C_Init 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__size_of_I2C_Send 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__size_of_I2C_Stop 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__size_of_I2C_Wait 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_OLED_Write$2065 39 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+__LidataBANK1 0 0 ABS 0 idataBANK1 -
+_I2C_Start 3D78 0 CODE 0 text15 dist/default/production\Greenheck_LCD.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+_I2C1_DO_IDLE 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_RCEN 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_CallbackReturnReset 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+i2c_simple_master@wr2RegCompleteHandler 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+OLED_Write@font_idx 3D 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+__size_of_OLED_DrawPixel 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of_OLED_Init 1F0 0 CODE 0 text12 dist/default/production\Greenheck_LCD.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\dklepps\AppData\Local\Temp\s854.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\dklepps\AppData\Local\Temp\s854.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\dklepps\AppData\Local\Temp\s854.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\dklepps\AppData\Local\Temp\s854.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\dklepps\AppData\Local\Temp\s854.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\dklepps\AppData\Local\Temp\s854.o
+OLED_Write@cbyte 37 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+main@lineIterator 5C 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+OLED_Write@value 2C 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+__size_of_OLED_Init 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+_wr2RegCompleteHandler 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of_PMD_Initialize 3D96 0 CODE 0 text2 dist/default/production\Greenheck_LCD.X.production.o
+__pidataBIGRAM 79E 0 CODE 0 idataBIGRAM dist/default/production\Greenheck_LCD.X.production.o
+___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+__size_of_ssd1306_command 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+___wmul@multiplicand 7B 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+_OLED_Init CC 0 CODE 0 text12 dist/default/production\Greenheck_LCD.X.production.o
+_OLED_SetFont 2E8C 0 CODE 0 text19 dist/default/production\Greenheck_LCD.X.production.o
+_rdBlkRegCompleteHandler 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_ANSELA 1F38 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_ANSELB 1F43 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_ANSELC 1F4E 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__size_of_I2C1_Initialize 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+_I2C_Init 3E7E 0 CODE 0 text20 dist/default/production\Greenheck_LCD.X.production.o
+_I2C_Send 3DBC 0 CODE 0 text16 dist/default/production\Greenheck_LCD.X.production.o
+_I2C_Stop 3D6A 0 CODE 0 text18 dist/default/production\Greenheck_LCD.X.production.o
+_I2C_Wait 3E04 0 CODE 0 text17 dist/default/production\Greenheck_LCD.X.production.o
+__end_of___wmul 3EF2 0 CODE 0 text7 dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_SEND_RESTART 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+__end_of_I2C_Init 3EAE 0 CODE 0 text20 dist/default/production\Greenheck_LCD.X.production.o
+__end_of_I2C_Send 3DD4 0 CODE 0 text16 dist/default/production\Greenheck_LCD.X.production.o
+__end_of_I2C_Stop 3D78 0 CODE 0 text18 dist/default/production\Greenheck_LCD.X.production.o
+__end_of_I2C_Wait 3E1E 0 CODE 0 text17 dist/default/production\Greenheck_LCD.X.production.o
+___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_SEND_RESTART_WRITE 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of___awdiv CC 0 CODE 0 text11 dist/default/production\Greenheck_LCD.X.production.o
+__CFG_FEXTOSC$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_OLED_Write 3A8 0 CODE 0 text6 dist/default/production\Greenheck_LCD.X.production.o
+OLED_Write@cx 3F 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+OLED_Write@cy 41 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+_INLVLA 1F3C 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_INLVLB 1F47 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_INLVLC 1F52 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_INLVLE 1F68 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+___stackhi 23EF 0 ABS 0 - C:\Users\dklepps\AppData\Local\Temp\s854.o
+___stacklo 207C 0 ABS 0 - C:\Users\dklepps\AppData\Local\Temp\s854.o
+__CFG_SAFEN$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__LidataBIGRAM 0 0 ABS 0 idataBIGRAM -
+__end_of_BIG_FONTS 27C8 0 STRCODE 0 stringtext4 dist/default/production\Greenheck_LCD.X.production.o
+__size_of_OLED_SetFont 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__size_of_width 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of_height 2E8C 0 CODE 0 text10 dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_SEND_RESTART_READ 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_PIN_MANAGER_Initialize 3EF2 0 CODE 0 text3 dist/default/production\Greenheck_LCD.X.production.o
+start_initialization F9E 0 CODE 0 cinit dist/default/production\Greenheck_LCD.X.production.o
+_ODCONA 1F3A 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_ODCONB 1F45 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_ODCONC 1F50 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_OSCFRQ 893 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__CFG_WDTCPS$WDTCPS_31 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_SEND_ADR_WRITE 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_BIG_FONTS 1000 0 STRCODE 0 stringtext4 dist/default/production\Greenheck_LCD.X.production.o
+_RC3PPS 1F23 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_RC4PPS 1F24 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+I2C_Init@speed 71 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+__end_of_SYSTEM_Initialize 3E38 0 CODE 0 text1 dist/default/production\Greenheck_LCD.X.production.o
+__end_of_OLED_SetFont 2F04 0 CODE 0 text19 dist/default/production\Greenheck_LCD.X.production.o
+clear_ram0 3DD4 0 CODE 0 clrtext dist/default/production\Greenheck_LCD.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+OLED_SetFont@font 70 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+i2c_simple_master@rd2RegCompleteHandler 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of_OLED_Write 79E 0 CODE 0 text6 dist/default/production\Greenheck_LCD.X.production.o
+_OLED_Update 3F50 0 CODE 0 text13 dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_Status A0 0 BANK1 1 bssBANK1 dist/default/production\Greenheck_LCD.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\dklepps\AppData\Local\Temp\s854.o
+_rd2RegCompleteHandler 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr32 0 0 ABS 0 sfr32 -
+__Hsfr33 0 0 ABS 0 sfr33 -
+__Hsfr34 0 0 ABS 0 sfr34 -
+__Hsfr35 0 0 ABS 0 sfr35 -
+__Hsfr36 0 0 ABS 0 sfr36 -
+__Hsfr37 0 0 ABS 0 sfr37 -
+__Hsfr38 0 0 ABS 0 sfr38 -
+__Hsfr39 0 0 ABS 0 sfr39 -
+__Hsfr40 0 0 ABS 0 sfr40 -
+__Hsfr41 0 0 ABS 0 sfr41 -
+__Hsfr42 0 0 ABS 0 sfr42 -
+__Hsfr43 0 0 ABS 0 sfr43 -
+__Hsfr44 0 0 ABS 0 sfr44 -
+__Hsfr45 0 0 ABS 0 sfr45 -
+__Hsfr46 0 0 ABS 0 sfr46 -
+__Hsfr47 0 0 ABS 0 sfr47 -
+__Hsfr48 0 0 ABS 0 sfr48 -
+__Hsfr49 0 0 ABS 0 sfr49 -
+__Hsfr50 0 0 ABS 0 sfr50 -
+__Hsfr51 0 0 ABS 0 sfr51 -
+__Hsfr52 0 0 ABS 0 sfr52 -
+__Hsfr53 0 0 ABS 0 sfr53 -
+__Hsfr54 0 0 ABS 0 sfr54 -
+__Hsfr55 0 0 ABS 0 sfr55 -
+__Hsfr56 0 0 ABS 0 sfr56 -
+__Hsfr57 0 0 ABS 0 sfr57 -
+__Hsfr58 0 0 ABS 0 sfr58 -
+__Hsfr59 0 0 ABS 0 sfr59 -
+__Hsfr60 0 0 ABS 0 sfr60 -
+__Hsfr61 0 0 ABS 0 sfr61 -
+__Hsfr62 0 0 ABS 0 sfr62 -
+__Hsfr63 0 0 ABS 0 sfr63 -
+__Hstack 0 0 STACK 2 stack -
+_main$2067 5A 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 ABS 0 bank13 -
+__Hbank14 0 0 ABS 0 bank14 -
+__Hbank15 0 0 ABS 0 bank15 -
+__Hbank16 0 0 ABS 0 bank16 -
+__Hbank17 0 0 ABS 0 bank17 -
+__Hbank18 0 0 ABS 0 bank18 -
+__Hbank19 0 0 ABS 0 bank19 -
+__Hbank20 0 0 ABS 0 bank20 -
+__Hbank21 0 0 ABS 0 bank21 -
+__Hbank22 0 0 ABS 0 bank22 -
+__Hbank23 0 0 ABS 0 bank23 -
+__Hbank24 0 0 ABS 0 bank24 -
+__Hbank25 0 0 ABS 0 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbank32 0 0 BANK32 1 bank32 -
+__Hbank33 0 0 BANK33 1 bank33 -
+__Hbank34 0 0 BANK34 1 bank34 -
+__Hbank35 0 0 BANK35 1 bank35 -
+__Hbank36 0 0 BANK36 1 bank36 -
+__Hbank37 0 0 BANK37 1 bank37 -
+__Hbank38 0 0 BANK38 1 bank38 -
+__Hbank39 0 0 BANK39 1 bank39 -
+__Hbank40 0 0 BANK40 1 bank40 -
+__Hbank41 0 0 BANK41 1 bank41 -
+__Hbank42 0 0 BANK42 1 bank42 -
+__Hbank43 0 0 BANK43 1 bank43 -
+__Hbank44 0 0 BANK44 1 bank44 -
+__Hbank45 0 0 BANK45 1 bank45 -
+__Hbank46 0 0 BANK46 1 bank46 -
+__Hbank47 0 0 BANK47 1 bank47 -
+__Hbank48 0 0 BANK48 1 bank48 -
+__Hbank49 0 0 BANK49 1 bank49 -
+__Hbank50 0 0 BANK50 1 bank50 -
+__Hbank51 0 0 BANK51 1 bank51 -
+__Hbank52 0 0 BANK52 1 bank52 -
+__Hbank53 0 0 BANK53 1 bank53 -
+__Hbank54 0 0 BANK54 1 bank54 -
+__Hbank55 0 0 BANK55 1 bank55 -
+__Hbank56 0 0 BANK56 1 bank56 -
+__Hbank57 0 0 BANK57 1 bank57 -
+__Hbank58 0 0 BANK58 1 bank58 -
+__Hbank59 0 0 BANK59 1 bank59 -
+__Hbank60 0 0 BANK60 1 bank60 -
+__Hbank61 0 0 BANK61 1 bank61 -
+__Hbank62 0 0 BANK62 1 bank62 -
+__Hbank63 0 0 BANK63 1 bank63 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+i2c_simple_master@wr1RegCompleteHandler 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+OLED_Write@cbit 3B 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+OLED_Write@temp 35 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10018 0 CONFIG 0 config -
+OLED_DrawPixel@x 79 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+OLED_DrawPixel@y 7B 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit F9E 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr32 0 0 ABS 0 sfr32 -
+__Lsfr33 0 0 ABS 0 sfr33 -
+__Lsfr34 0 0 ABS 0 sfr34 -
+__Lsfr35 0 0 ABS 0 sfr35 -
+__Lsfr36 0 0 ABS 0 sfr36 -
+__Lsfr37 0 0 ABS 0 sfr37 -
+__Lsfr38 0 0 ABS 0 sfr38 -
+__Lsfr39 0 0 ABS 0 sfr39 -
+__Lsfr40 0 0 ABS 0 sfr40 -
+__Lsfr41 0 0 ABS 0 sfr41 -
+__Lsfr42 0 0 ABS 0 sfr42 -
+__Lsfr43 0 0 ABS 0 sfr43 -
+__Lsfr44 0 0 ABS 0 sfr44 -
+__Lsfr45 0 0 ABS 0 sfr45 -
+__Lsfr46 0 0 ABS 0 sfr46 -
+__Lsfr47 0 0 ABS 0 sfr47 -
+__Lsfr48 0 0 ABS 0 sfr48 -
+__Lsfr49 0 0 ABS 0 sfr49 -
+__Lsfr50 0 0 ABS 0 sfr50 -
+__Lsfr51 0 0 ABS 0 sfr51 -
+__Lsfr52 0 0 ABS 0 sfr52 -
+__Lsfr53 0 0 ABS 0 sfr53 -
+__Lsfr54 0 0 ABS 0 sfr54 -
+__Lsfr55 0 0 ABS 0 sfr55 -
+__Lsfr56 0 0 ABS 0 sfr56 -
+__Lsfr57 0 0 ABS 0 sfr57 -
+__Lsfr58 0 0 ABS 0 sfr58 -
+__Lsfr59 0 0 ABS 0 sfr59 -
+__Lsfr60 0 0 ABS 0 sfr60 -
+__Lsfr61 0 0 ABS 0 sfr61 -
+__Lsfr62 0 0 ABS 0 sfr62 -
+__Lsfr63 0 0 ABS 0 sfr63 -
+__Lstack 0 0 STACK 2 stack -
+init_ram 3DEC 0 CODE 0 inittext dist/default/production\Greenheck_LCD.X.production.o
+__Linittext 0 0 ABS 0 inittext -
+_wr1RegCompleteHandler 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 4 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+OLED_Write@cnt 45 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 4 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 27C8 0 STRCODE 0 stringtext1 dist/default/production\Greenheck_LCD.X.production.o
+__pstringtext2 2C44 0 STRCODE 0 stringtext2 dist/default/production\Greenheck_LCD.X.production.o
+__pstringtext3 4000 0 STRCODE 0 stringtext3 dist/default/production\Greenheck_LCD.X.production.o
+__pstringtext4 1000 0 STRCODE 0 stringtext4 dist/default/production\Greenheck_LCD.X.production.o
+_SSP1CON1 190 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_SSP1CON2 191 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_SSP1STAT 18F 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+___wmul 3EAE 0 CODE 0 text7 dist/default/production\Greenheck_LCD.X.production.o
+__CFG_WDTCWS$WDTCWS_7 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__S0 800C 0 ABS 0 - -
+__S1 CC 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+_buffer 23F0 0 ABS 1 - dist/default/production\Greenheck_LCD.X.production.o
+__HidataBIGRAM 0 0 ABS 0 idataBIGRAM -
+_I2C1_CallbackReturnStop 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__CFG_BBEN$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_RESET 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_SYSTEM_Initialize 3E1E 0 CODE 0 text1 dist/default/production\Greenheck_LCD.X.production.o
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Lintentry 4 0 CODE 0 intentry -
+_height 2E88 0 CODE 0 text10 dist/default/production\Greenheck_LCD.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\dklepps\AppData\Local\Temp\s854.o
+main@textIterator 5E 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+__pdataBANK1 BD 0 BANK1 1 dataBANK1 dist/default/production\Greenheck_LCD.X.production.o
+__size_of___wmul 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+_OLED_DrawPixel 1F0 0 CODE 0 text8 dist/default/production\Greenheck_LCD.X.production.o
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+__Lstringtext2 0 0 ABS 0 stringtext2 -
+__Lstringtext3 0 0 ABS 0 stringtext3 -
+__Lstringtext4 0 0 ABS 0 stringtext4 -
+__size_of_PMD_Initialize 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_PIE3bits 719 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+OLED_Write@rowcnt 43 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+__ptext10 2E88 0 CODE 0 text10 dist/default/production\Greenheck_LCD.X.production.o
+__ptext11 E 0 CODE 0 text11 dist/default/production\Greenheck_LCD.X.production.o
+__ptext12 CC 0 CODE 0 text12 dist/default/production\Greenheck_LCD.X.production.o
+__ptext13 3F50 0 CODE 0 text13 dist/default/production\Greenheck_LCD.X.production.o
+__ptext14 3E56 0 CODE 0 text14 dist/default/production\Greenheck_LCD.X.production.o
+__ptext15 3D78 0 CODE 0 text15 dist/default/production\Greenheck_LCD.X.production.o
+__ptext16 3DBC 0 CODE 0 text16 dist/default/production\Greenheck_LCD.X.production.o
+__ptext17 3E04 0 CODE 0 text17 dist/default/production\Greenheck_LCD.X.production.o
+__ptext18 3D6A 0 CODE 0 text18 dist/default/production\Greenheck_LCD.X.production.o
+__ptext19 2E8C 0 CODE 0 text19 dist/default/production\Greenheck_LCD.X.production.o
+__ptext20 3E7E 0 CODE 0 text20 dist/default/production\Greenheck_LCD.X.production.o
+main@lineNumber 5D 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_RX_ACK 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of_PIN_MANAGER_Initialize 3F50 0 CODE 0 text3 dist/default/production\Greenheck_LCD.X.production.o
+___awdiv E 0 CODE 0 text11 dist/default/production\Greenheck_LCD.X.production.o
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 ABS 0 bank13 -
+__Lbank14 0 0 ABS 0 bank14 -
+__Lbank15 0 0 ABS 0 bank15 -
+__Lbank16 0 0 ABS 0 bank16 -
+__Lbank17 0 0 ABS 0 bank17 -
+__Lbank18 0 0 ABS 0 bank18 -
+__Lbank19 0 0 ABS 0 bank19 -
+__Lbank20 0 0 ABS 0 bank20 -
+__Lbank21 0 0 ABS 0 bank21 -
+__Lbank22 0 0 ABS 0 bank22 -
+__Lbank23 0 0 ABS 0 bank23 -
+__Lbank24 0 0 ABS 0 bank24 -
+__Lbank25 0 0 ABS 0 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__Lbank32 0 0 BANK32 1 bank32 -
+__Lbank33 0 0 BANK33 1 bank33 -
+__Lbank34 0 0 BANK34 1 bank34 -
+__Lbank35 0 0 BANK35 1 bank35 -
+__Lbank36 0 0 BANK36 1 bank36 -
+__Lbank37 0 0 BANK37 1 bank37 -
+__Lbank38 0 0 BANK38 1 bank38 -
+__Lbank39 0 0 BANK39 1 bank39 -
+__Lbank40 0 0 BANK40 1 bank40 -
+__Lbank41 0 0 BANK41 1 bank41 -
+__Lbank42 0 0 BANK42 1 bank42 -
+__Lbank43 0 0 BANK43 1 bank43 -
+__Lbank44 0 0 BANK44 1 bank44 -
+__Lbank45 0 0 BANK45 1 bank45 -
+__Lbank46 0 0 BANK46 1 bank46 -
+__Lbank47 0 0 BANK47 1 bank47 -
+__Lbank48 0 0 BANK48 1 bank48 -
+__Lbank49 0 0 BANK49 1 bank49 -
+__Lbank50 0 0 BANK50 1 bank50 -
+__Lbank51 0 0 BANK51 1 bank51 -
+__Lbank52 0 0 BANK52 1 bank52 -
+__Lbank53 0 0 BANK53 1 bank53 -
+__Lbank54 0 0 BANK54 1 bank54 -
+__Lbank55 0 0 BANK55 1 bank55 -
+__Lbank56 0 0 BANK56 1 bank56 -
+__Lbank57 0 0 BANK57 1 bank57 -
+__Lbank58 0 0 BANK58 1 bank58 -
+__Lbank59 0 0 BANK59 1 bank59 -
+__Lbank60 0 0 BANK60 1 bank60 -
+__Lbank61 0 0 BANK61 1 bank61 -
+__Lbank62 0 0 BANK62 1 bank62 -
+__Lbank63 0 0 BANK63 1 bank63 -
+__pmaintext 2F04 0 CODE 0 maintext dist/default/production\Greenheck_LCD.X.production.o
+__Lbigram 0 0 ABS 0 bigram -
+__CFG_BORV$LO 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_RX_NACK_STOP 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__CFG_RSTOSC$HFINT1 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__CFG_BBSIZE$BB512 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 1000E 0 CONFIG 0 config -
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Hinittext 0 0 ABS 0 inittext -
+___wmul@multiplier 79 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+__CFG_WRTAPP$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+main@F7844 BD 0 BANK1 1 dataBANK1 dist/default/production\Greenheck_LCD.X.production.o
+__size_of_height 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+OLED_DrawPixel@color 7D 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+i2c_simple_master@rd1RegCompleteHandler 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_SSP1CLKPPS 1EC5 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_OSCCON1 88D 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_OSCCON3 88F 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_OSCSTAT 890 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_OSCTUNE 892 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_SSP1DATPPS 1EC6 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of_OLED_DrawPixel 3A8 0 CODE 0 text8 dist/default/production\Greenheck_LCD.X.production.o
+__size_of_OLED_Write 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+i2c_simple_master@rdBlkRegCompleteHandler 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_RX_NACK_RESTART 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__CFG_LPBOREN$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+_I2C1_DO_SEND_STOP 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_rd1RegCompleteHandler 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_PIR3bits 70F 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Lend_init 4 0 CODE 0 end_init -
+__end_of_TINY_FONTS 2E86 0 STRCODE 0 stringtext2 dist/default/production\Greenheck_LCD.X.production.o
+__CFG_LVP$ON 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__CFG_CSWEN$ON 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__CFG_ZCD$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+end_of_initialization FFA 0 CODE 0 cinit dist/default/production\Greenheck_LCD.X.production.o
+__Hintentry 4 0 CODE 0 intentry -
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+?___awdiv 70 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec -
+OLED_Update@i 76 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+OLED_Update@x 75 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+main@RAFTEXT 4B 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_RX 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_TX 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__ptext1 3E1E 0 CODE 0 text1 dist/default/production\Greenheck_LCD.X.production.o
+__ptext2 3D86 0 CODE 0 text2 dist/default/production\Greenheck_LCD.X.production.o
+__ptext3 3EF2 0 CODE 0 text3 dist/default/production\Greenheck_LCD.X.production.o
+__ptext4 3DA8 0 CODE 0 text4 dist/default/production\Greenheck_LCD.X.production.o
+__ptext5 3D96 0 CODE 0 text5 dist/default/production\Greenheck_LCD.X.production.o
+__ptext6 3A8 0 CODE 0 text6 dist/default/production\Greenheck_LCD.X.production.o
+__ptext7 3EAE 0 CODE 0 text7 dist/default/production\Greenheck_LCD.X.production.o
+__ptext8 1F0 0 CODE 0 text8 dist/default/production\Greenheck_LCD.X.production.o
+__ptext9 A 0 CODE 0 text9 dist/default/production\Greenheck_LCD.X.production.o
+__end_of_OLED_Update 4000 0 CODE 0 text13 dist/default/production\Greenheck_LCD.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of_SMALL_FONTS 2C44 0 STRCODE 0 stringtext1 dist/default/production\Greenheck_LCD.X.production.o
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+__Hstringtext2 0 0 ABS 0 stringtext2 -
+__Hstringtext3 0 0 ABS 0 stringtext3 -
+__Hstringtext4 0 0 ABS 0 stringtext4 -
+_SLRCONA 1F3B 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_SLRCONB 1F46 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_SLRCONC 1F51 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of__initialization FFA 0 CODE 0 cinit dist/default/production\Greenheck_LCD.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__pidataBANK1 3E38 0 CODE 0 idataBANK1 dist/default/production\Greenheck_LCD.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+_SSP1CON1bits 190 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_SSP1CON2bits 191 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of_i2c1_fsmStateTable 4040 0 STRCODE 0 stringtext3 dist/default/production\Greenheck_LCD.X.production.o
+__end_of_ssd1306_command 3E7E 0 CODE 0 text14 dist/default/production\Greenheck_LCD.X.production.o
+ssd1306_command@command 71 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_SEND_ADR_READ 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of_I2C1_Initialize 3DA8 0 CODE 0 text5 dist/default/production\Greenheck_LCD.X.production.o
+_SSP1ADD 18D 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_SSP1BUF 18C 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__Hend_init 8 0 CODE 0 end_init -
+__end_of_main 3000 0 CODE 0 maintext dist/default/production\Greenheck_LCD.X.production.o
+__CFG_WRTSAF$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_OSCEN 891 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_TRISA 12 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_TRISB 13 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_TRISC 14 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__end_of_width E 0 CODE 0 text9 dist/default/production\Greenheck_LCD.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_cfont 5F 0 BANK0 1 bssBANK0 dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_ADDRESS_NACK 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+_width A 0 CODE 0 text9 dist/default/production\Greenheck_LCD.X.production.o
+__size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__HdataBANK1 0 0 ABS 0 dataBANK1 -
+__end_of_OSCILLATOR_Initialize 3DBC 0 CODE 0 text4 dist/default/production\Greenheck_LCD.X.production.o
+__CFG_PPS1WAY$ON 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__pdataBIGRAM 23F0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__initialization F9E 0 CODE 0 cinit dist/default/production\Greenheck_LCD.X.production.o
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+__pbssBANK0 5F 0 BANK0 1 bssBANK0 dist/default/production\Greenheck_LCD.X.production.o
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\Greenheck_LCD.X.production.o
+_i2c1_fsmStateTable 4000 0 STRCODE 0 stringtext3 dist/default/production\Greenheck_LCD.X.production.o
+_I2C1_DO_TX_EMPTY 0 0 ABS 0 - dist/default/production\Greenheck_LCD.X.production.o
+___wmul@product 20 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+OLED_Write@b 47 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+OLED_Write@x 28 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+OLED_Write@y 2A 0 BANK0 1 cstackBANK0 dist/default/production\Greenheck_LCD.X.production.o
+_ssd1306_command 3E56 0 CODE 0 text14 dist/default/production\Greenheck_LCD.X.production.o
+_OSCILLATOR_Initialize 3DA8 0 CODE 0 text4 dist/default/production\Greenheck_LCD.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+_buffer 1 23F0 0
+- 1 CA0 20
+- 1 C20 50
+- 1 BA0 50
+- 1 B20 50
+- 1 AA0 50
+- 1 A20 50
+- 1 9A0 50
+- 1 920 50
+- 1 8A0 50
+- 1 820 50
+- 1 7A0 50
+- 1 720 50
+- 1 6A0 50
+- 1 650 20
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7CF F9E 31 2
+text1 0 1F0F 3E1E D 2
+text2 0 1EC3 3D86 8 2
+text3 0 1F79 3EF2 2F 2
+text4 0 1ED4 3DA8 A 2
+text5 0 1ECB 3D96 9 2
+text6 0 1D4 3A8 1FB 2
+text7 0 1F57 3EAE 22 2
+text8 0 F8 1F0 DC 2
+text9 0 5 A 2 2
+text10 0 1744 2E88 2 2
+text11 0 7 E 5F 2
+text12 0 66 CC 92 2
+text13 0 1FA8 3F50 58 2
+text14 0 1F2B 3E56 14 2
+text15 0 1EBC 3D78 7 2
+text16 0 1EDE 3DBC C 2
+text17 0 1F02 3E04 D 2
+text18 0 1EB5 3D6A 7 2
+text19 0 1746 2E8C 3C 2
+text20 0 1F3F 3E7E 18 2
+idataBIGRAM 0 3CF 79E 400 2
+maintext 0 1782 2F04 7E 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 46 1
+inittext 0 1EF6 3DEC C 2
+stringtext3 0 2000 4000 20 2
+stringtext4 0 800 1000 F43 2
+reset_vec 0 0 0 4 2
+bssBANK1 1 A0 A0 2C 1
+idataBANK1 0 1F1C 3E38 F 2
+clrtext 0 1EEA 3DD4 C 2
+config 0 8007 1000E 5 2
+# OTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by OTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
